@@ -1,5 +1,5 @@
 # Collection Characterizing Suite (CCS)
-Repository for ACM HyperText 2018 paper [Data](/Data) and [Code](/Code)
+Repository for ACM HyperText 2018 paper [Data](/Data) and [Code](/Code). See Table 4 (from Paper) to see more details (e.g., Extraction notes) about the dataset.
 ## Citing Project
 A publication related to this project appeared in the proceedings of ACM HyperText 2018 ([Read the PDF](https://www.cs.odu.edu/~mln/pubs/ht-2018/hypertext-2018-nwala-bootstrapping.pdf)). Please cite it as below:
 
