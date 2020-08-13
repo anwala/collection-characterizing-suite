@@ -1,0 +1,30 @@
+{
+    "name": "TNY-storify-ebola-virus-col",
+    "source-link": "https://storify.com/CDCgov/live-twitter-chat-8-8-2014",
+    "capture-date": "2014-08-11 20:10:02",
+    "date-range": "",
+    "author": "CDCgov",
+    "collection": [
+        "https://twitter.com/CDCgov/status/497804501999702016",
+        "https://twitter.com/CDCgov/status/497805129064939520",
+        "https://twitter.com/CDCgov/status/497805275509039104",
+        "https://twitter.com/CDCgov/status/497805491054325760",
+        "https://twitter.com/CDCgov/status/497805766297141248",
+        "https://twitter.com/CDCgov/status/497805946593480704",
+        "https://twitter.com/CDCgov/status/497806082526703616",
+        "https://twitter.com/CDCgov/status/497806198805368832",
+        "https://twitter.com/CDC_NCEZID/status/497806228618493952",
+        "https://twitter.com/CDCGlobal/status/497806606596587520",
+        "https://twitter.com/CDCgov/status/497806727270895616",
+        "https://twitter.com/CDCgov/status/497806901397426177",
+        "https://twitter.com/NickLough/status/497791076150042624",
+        "https://twitter.com/CDCtravel/status/497806891343708160",
+        "https://twitter.com/CDCtravel/status/497806962890121217",
+        "https://twitter.com/EbolaWatchUSA/status/497804965683806208",
+        "https://twitter.com/CDCtravel/status/497807068292972544",
+        "https://twitter.com/CDCtravel/status/497807099750268930",
+        "https://twitter.com/Casillic/status/497805560121950209",
+        "https://twitter.com/CDCtravel/status/497807152371998720"
+    ],
+    "id": "TNY-storify-ebola-virus-col-80"
+}
