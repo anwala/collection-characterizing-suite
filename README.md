@@ -42,3 +42,21 @@ Consider the following blogpost about [measuring source diversity](https://githu
 ### Collection exposure (Section 4.6)
 The archival state of a URI (`URI ARCHIVED` or `URI NOT ARCHIVED`) can be determined with [Sawood Alam's](https://twitter.com/ibnesayeed) [MemGator](https://github.com/oduwsdl/MemGator). The tweet index state of a URI (`URI IN TWEET` or `URI NOT IN TWEET`) can be determined by [searching for the URI](https://ws-dl.blogspot.com/2017/01/2017-01-23-finding-urls-on-twitter.html) on Twitter.
 
+### Target audience (Section 4.7)
+We extracted readability grades using [TextStat's](https://github.com/shivam5992/textstat) implementation of readability methods. E.g., 
+```
+from textstat.textstat import textstat
+
+#from Turing's [The Imitation Game](https://www.csee.umbc.edu/courses/471/papers/turing.pdf)
+text = '''
+I propose to consider the question, "Can machines think?" This should begin with definitions of the meaning of the terms "machine" and "think." The definitions might be framed so as to reflect so far as possible the normal use of the words, but this attitude is dangerous, If the meaning of the words "machine" and "think" are to be found by examining how they are commonly used it is difficult to escape the conclusion that the meaning and the answer to the question, "Can machines think?" is to be sought in a statistical survey such as a Gallup poll. But this is absurd. Instead of attempting such a
+definition I shall replace the question by another, which is closely related to it and is expressed in relatively unambiguous words. 
+'''
+
+avg_grade = 0
+avg_grade += textstat.flesch_kincaid_grade(text)
+avg_grade += textstat.coleman_liau_index(text)
+avg_grade += textstat.automated_readability_index(text)
+
+print('avg_grade:', avg_grade/3)
+```
